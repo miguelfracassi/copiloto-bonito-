@@ -1,0 +1,44 @@
+{
+  "cleanUrls": true,
+  "headers": [
+    {
+      "source": "/admin",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        }
+      ]
+    },
+    {
+      "source": "/gestao",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        }
+      ]
+    },
+    {
+      "source": "/apelacoes",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        }
+      ]
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/apelações",
+      "destination": "/apelacoes",
+      "permanent": false
+    },
+    {
+      "source": "/apela%C3%A7%C3%B5es",
+      "destination": "/apelacoes",
+      "permanent": false
+    }
+  ]
+}
